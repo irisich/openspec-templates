@@ -1,7 +1,7 @@
 # Настройка окружения для написания постановок (EPM)
 
 Этот документ собирает всё, что нужно настроить коллегам, чтобы их окружение
-для написания постановок (`change.md`, `proposal.md`, `spec.md`, `tasks.md` и т.п.
+для написания постановок (`design.md`, `proposal.md`, `spec.md`, `tasks.md` и т.п.
 в `openspec/schemas/epm-analytics-template/templates`) совпадало с рабочим. Дополняется
 по мере того, как всплывают новые нужные настройки/расширения.
 
@@ -39,7 +39,7 @@ code --install-extension bierner.markdown-mermaid
 
 Либо вручную: `Ctrl+Shift+X` → найти "Markdown Preview Mermaid Support" → Install.
 
-**Проверка:** открыть `openspec/schemas/epm-analytics-template/templates/change.md`,
+**Проверка:** открыть `openspec/schemas/epm-analytics-template/templates/design.md`,
 нажать `Ctrl+Shift+V` — диаграммы в примерах (раздел "Изменение в архитектуре
 сервиса" и др.) должны отрисовываться как схемы, а не как текст кода.
 
@@ -47,7 +47,7 @@ code --install-extension bierner.markdown-mermaid
 
 **Зачем:** в разделе "Изменения в предоставляемом API" каждой постановки
 указывается ссылка на OpenAPI/yml-файл с методами (см. `Ссылка на OpenAPI/yml`
-в `change.md`). Чтобы смотреть и проверять такие файлы прямо в VS Code, не
+в `design.md`). Чтобы смотреть и проверять такие файлы прямо в VS Code, не
 выгружая их на внешний сервис, нужно расширение **Swagger Viewer**.
 
 **Расширение:** `Arjun.swagger-viewer` — "Swagger Viewer".

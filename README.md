@@ -1,2 +1,2 @@
 # openspec-templates
-шаблоны openspec для генерации артефактов - proposal.md, change.md, design.md, tasks.md. 
+шаблоны openspec для генерации артефактов - proposal.md, spec.md, design.md, tasks.md. 
